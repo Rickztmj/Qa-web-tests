@@ -1,4 +1,14 @@
 Este repositório contém testes automatizados para APIs e aplicações web utilizando **Cypress** e **Postman**, com geração de relatórios visuais via **Mochawesome**.
+## 🔌 API Utilizada
+
+Este projeto utiliza a **[JSONPlaceholder](https://jsonplaceholder.typicode.com/)** como base para os testes de API.
+
+> **JSONPlaceholder** é uma API gratuita, falsa e confiável, usada para fins de teste e prototipagem.  
+> Ela simula uma aplicação real com endpoints como `posts`, `comments`, `users`, entre outros.
+
+- Permite testar operações como `GET`, `POST`, `PUT` e `DELETE`
+- Ideal para validar automações com Cypress e Postman
+- Alimentada por **JSON Server** e **LowDB**
 
 ---
 
