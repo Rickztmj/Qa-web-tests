@@ -1,0 +1,7 @@
+describe('Teste API com Cypress', () => {
+  it('Valida GET /posts/1', () => {
+    cy.request('https://jsonplaceholder.typicode.com/posts/1')
+      .its('status')
+      .should('equal', 200);
+  });
+});

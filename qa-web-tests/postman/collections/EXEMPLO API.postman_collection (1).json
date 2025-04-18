@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "0cc2cb06-fe6f-4a15-a160-5aa26f056866",
+		"name": "EXEMPLO API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43029437"
+	},
+	"item": [
+		{
+			"name": "postman/collections/exemplo-api.postman_collection.json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
